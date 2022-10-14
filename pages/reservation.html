@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Angela Raphael">
+    <meta name="description" content="Reservation Page of Little Lemon restaurant">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Reservation</title>
+</head>
+<body>
+    <header>
+        <img src="./../assets/Asset 16@4x.png" alt="Little Lemon logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a class="nav" href="./../index.html">Homepage</a></li>
+            <li><a class="nav" href="./../pages/menu.html">Menu</a></li>
+            <li><a class="nav" href="./../pages/reservation.html">Reservation</a></li>
+            <li><a class="nav" href="./../pages/about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="form-section">
+            <article class="form">
+                <h1>Book a Table</h1>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label class="form-control-label" for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name"  required />
+                    </div>
+                    <div class="form-group ">
+                         <label class="form-control-label" for="email">E-Mail</label>
+                        <input type="email" class="form-control" id="email" name="email"  required /> 
+                    </div>
+                    <div class="form-group">
+                          <label class="form-control-label" for="datetime">Date Time</label>
+                        <input type="datetime-local" class="form-control" id="datetime" name="datetime" placeholder="Reservation Time" required />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-control-label" for="people">Number of people:</label>
+                        <input type="number" class="form-control" id="people" name="people" placeholder="Choose a number" required /> 
+                    </div>
+                        <button type="submit" id="submit">Submit</button>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+       <div class="footer-logo" >
+                <img src="../assets/Asset 20@4x.png" alt="Little Lemon logo">
+            </div>
+        <div class="copyright">
+             <h4>© 2022 Little lemon restaurant</h4>
+                </p>All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
